@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -20,22 +19,55 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-.env
+
+# Virtual environments
 venv/
+env/
 ENV/
+.venv
+
+# Database
 *.db
 *.sqlite3
+pathforge.db
 
-# Node / Frontend
-node_modules/
-dist/
-dist-ssr/
-*.local
-.npm
-.eslintcache
+# Environment
+.env
+.env.local
+.env.*.local
 
-# Logs & IDE
-*.log
+# IDE
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+/backend/uploads/
+
+# Node (frontend)
+node_modules/
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/build/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.bak
+*.tmp
+.cache/

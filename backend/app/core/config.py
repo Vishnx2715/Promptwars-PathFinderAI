@@ -31,13 +31,26 @@ class Settings(BaseSettings):
     # xAI Grok Settings (primary AI provider)
     XAI_API_KEY: str = ""
     XAI_BASE_URL: str = "https://api.x.ai/v1"
-    XAI_MODEL: str = "grok-4"
+    XAI_MODEL: str = "grok-2-1212"
     AI_TIMEOUT_SECONDS: int = 25
 
     # Legacy OpenAI fallback (kept for backward compat — not used if XAI_API_KEY is set)
     OPENAI_API_KEY: str = ""
     OPENAI_MODEL: str = "gpt-4o-mini"
     OPENAI_TIMEOUT_SECONDS: int = 25
+    
+    # Alias for backward compat with agents
+    @property
+    def GROK_API_KEY(self) -> str:
+        return self.XAI_API_KEY
+    
+    @property
+    def GROK_MODEL(self) -> str:
+        return self.XAI_MODEL
+    
+    @property
+    def GROK_API_BASE(self) -> str:
+        return self.XAI_BASE_URL
 
     # Cookie Settings
     SECURE_COOKIE: bool = False

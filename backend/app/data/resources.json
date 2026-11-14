@@ -1,0 +1,826 @@
+[
+  {
+    "skill": "HTML",
+    "title": "MDN Getting Started with the Web - HTML Basics",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Establishes standard HTML syntax, tags, and document tree structure."
+  },
+  {
+    "skill": "HTML",
+    "title": "MDN Semantic HTML Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 25,
+    "reason": "Learn semantic elements (header, main, nav, article) for accessibility and SEO."
+  },
+  {
+    "skill": "HTML",
+    "title": "freeCodeCamp Responsive Web Design Certification - HTML Form Building",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+    "resource_type": "exercise",
+    "difficulty": "easy",
+    "estimated_minutes": 45,
+    "reason": "Hands-on interactive practice building web forms with input validation."
+  },
+  {
+    "skill": "HTML",
+    "title": "W3Schools HTML Forms and Input Attributes",
+    "url": "https://www.w3schools.com/html/html_forms.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 20,
+    "reason": "Quick reference for HTML form input elements, types, and form submission."
+  },
+  {
+    "skill": "HTML",
+    "title": "MDN HTML Accessibility Guidelines",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Ensure inclusive markup with ARIA roles, alt text, and semantic landmark elements."
+  },
+  {
+    "skill": "HTML",
+    "title": "freeCodeCamp Personal Portfolio Page Project",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/",
+    "resource_type": "project",
+    "difficulty": "medium",
+    "estimated_minutes": 60,
+    "reason": "Consolidate structural HTML elements into a coherent personal web project."
+  },
+
+  {
+    "skill": "CSS",
+    "title": "MDN CSS First Steps & Cascading",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Fundamental understanding of selectors, inheritance, cascade, and specificity."
+  },
+  {
+    "skill": "CSS",
+    "title": "CSS-Tricks A Complete Guide to Flexbox",
+    "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Comprehensive visual breakdown of flex containers, direction, alignment, and wrapping."
+  },
+  {
+    "skill": "CSS",
+    "title": "CSS-Tricks A Complete Guide to CSS Grid",
+    "url": "https://css-tricks.com/snippets/css/complete-guide-grid/",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 45,
+    "reason": "Master two-dimensional layouts with Grid track sizing, template areas, and auto-placement."
+  },
+  {
+    "skill": "CSS",
+    "title": "W3Schools CSS Responsive Web Design & Media Queries",
+    "url": "https://www.w3schools.com/css/css_rwd_intro.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Construct fluid layouts that adapt across mobile, tablet, and desktop breakpoints."
+  },
+  {
+    "skill": "CSS",
+    "title": "freeCodeCamp CSS Flexbox and Grid Interactive Labs",
+    "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-flexbox-by-building-a-photo-gallery",
+    "resource_type": "exercise",
+    "difficulty": "medium",
+    "estimated_minutes": 50,
+    "reason": "Step-by-step interactive exercises building responsive galleries."
+  },
+  {
+    "skill": "CSS",
+    "title": "MDN CSS Animations and Transitions",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 30,
+    "reason": "Add smooth interactive visual micro-interactions without JavaScript."
+  },
+
+  {
+    "skill": "JavaScript",
+    "title": "MDN JavaScript Language Overview & Syntax",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 35,
+    "reason": "Core JavaScript syntax, lexical scope, variable declarations (let/const), and primitive types."
+  },
+  {
+    "skill": "JavaScript",
+    "title": "javascript.info - Closures and Execution Context",
+    "url": "https://javascript.info/closure",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 40,
+    "reason": "Deep dive into lexical environments, outer references, and variable closures."
+  },
+  {
+    "skill": "JavaScript",
+    "title": "MDN Promises and Async/Await in JavaScript",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 45,
+    "reason": "Understand asynchronous control flow, promise chaining, and error handling with try/catch."
+  },
+  {
+    "skill": "JavaScript",
+    "title": "freeCodeCamp Basic JavaScript Data Structures & Algorithms",
+    "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+    "resource_type": "exercise",
+    "difficulty": "medium",
+    "estimated_minutes": 60,
+    "reason": "Interactive algorithm challenges focused on arrays, objects, map, filter, and reduce."
+  },
+  {
+    "skill": "JavaScript",
+    "title": "MDN The Event Loop & Concurrency Model",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 35,
+    "reason": "Crucial foundation for how call stack, microtask queue, and macrotask queue execute."
+  },
+  {
+    "skill": "JavaScript",
+    "title": "W3Schools Modern ES6 Features (Arrow Functions, Destructuring)",
+    "url": "https://www.w3schools.com/js/js_es6.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Modern syntax idioms required for component-based frameworks like React."
+  },
+
+  {
+    "skill": "React",
+    "title": "Official React Quick Start - Describing the UI",
+    "url": "https://react.dev/learn",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 35,
+    "reason": "Understand JSX syntax, component purity, and passing props."
+  },
+  {
+    "skill": "React",
+    "title": "Official React State: A Component's Memory",
+    "url": "https://react.dev/learn/state-a-components-memory",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Master the useState hook, re-rendering triggers, and unidirectional data flow."
+  },
+  {
+    "skill": "React",
+    "title": "Official React Synchronizing with Effects (useEffect)",
+    "url": "https://react.dev/learn/synchronizing-with-effects",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 45,
+    "reason": "Lifecycle management, network fetching, subscriptions, and effect cleanup functions."
+  },
+  {
+    "skill": "React",
+    "title": "freeCodeCamp Build 25 React Projects Hands-on",
+    "url": "https://www.freecodecamp.org/news/learn-react-by-building-25-projects/",
+    "resource_type": "project",
+    "difficulty": "medium",
+    "estimated_minutes": 90,
+    "reason": "Practical implementation of stateful widgets, tabs, modals, and data fetching."
+  },
+  {
+    "skill": "React",
+    "title": "React Router Official Tutorial",
+    "url": "https://reactrouter.com/en/main/start/tutorial",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Client-side routing, nested routes, route loaders, and navigation state."
+  },
+  {
+    "skill": "React",
+    "title": "Official React Managing State with Context API",
+    "url": "https://react.dev/learn/passing-data-deeply-with-context",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 30,
+    "reason": "Avoid prop drilling by providing application-level authentication and theme context."
+  },
+
+  {
+    "skill": "Node.js",
+    "title": "Official Node.js Introduction and Architecture",
+    "url": "https://nodejs.org/en/learn/getting-started/introduction-to-nodejs",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Architecture overview of V8 runtime, Libuv asynchronous I/O, and non-blocking event model."
+  },
+  {
+    "skill": "Node.js",
+    "title": "Official Node.js File System & Path Modules",
+    "url": "https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Reading, writing, and streaming file operations asynchronously."
+  },
+  {
+    "skill": "Node.js",
+    "title": "Official Node.js NPM Package Management Essentials",
+    "url": "https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 20,
+    "reason": "Managing dependencies, package.json scripts, lockfiles, and semantic versioning."
+  },
+  {
+    "skill": "Node.js",
+    "title": "MDN Node.js Server Environment Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Understanding server-side request lifecycles, HTTP modules, and environment configs."
+  },
+  {
+    "skill": "Node.js",
+    "title": "Node.js Streams and EventEmitters Guide",
+    "url": "https://nodejs.org/en/learn/asynchronous-work/event-emitter",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 45,
+    "reason": "Handling backpressure and memory-efficient data piping in backend runtimes."
+  },
+  {
+    "skill": "Node.js",
+    "title": "freeCodeCamp Node.js and Express Back End Development Course",
+    "url": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+    "resource_type": "exercise",
+    "difficulty": "medium",
+    "estimated_minutes": 60,
+    "reason": "Hands-on micro-challenges creating working server endpoints in Node.js."
+  },
+
+  {
+    "skill": "Express",
+    "title": "Official Express Getting Started & Hello World",
+    "url": "https://expressjs.com/en/starter/hello-world.html",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 20,
+    "reason": "Setup minimal web server, listening port, and standard route handler."
+  },
+  {
+    "skill": "Express",
+    "title": "Official Express Routing In-Depth",
+    "url": "https://expressjs.com/en/guide/routing.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 30,
+    "reason": "Route methods, route paths, parameters, regex patterns, and express.Router."
+  },
+  {
+    "skill": "Express",
+    "title": "Official Express Writing and Using Middleware",
+    "url": "https://expressjs.com/en/guide/writing-middleware.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Execute code, transform request/response objects, and call next() in middleware chain."
+  },
+  {
+    "skill": "Express",
+    "title": "Official Express Error Handling Patterns",
+    "url": "https://expressjs.com/en/guide/error-handling.html",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 30,
+    "reason": "Catch synchronous and asynchronous errors with centralized 4-parameter error middleware."
+  },
+  {
+    "skill": "Express",
+    "title": "MDN Express Tutorial - LocalLibrary Website",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website",
+    "resource_type": "project",
+    "difficulty": "medium",
+    "estimated_minutes": 80,
+    "reason": "Comprehensive walkthrough of MVC pattern, controllers, views, and routing in Express."
+  },
+  {
+    "skill": "Express",
+    "title": "W3Schools Node.js & Express REST Guide",
+    "url": "https://www.w3schools.com/nodejs/nodejs_intro.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Quick review of handling JSON payload parsing with express.json()."
+  },
+
+  {
+    "skill": "REST APIs",
+    "title": "MDN HTTP Overview and Request/Response Methods",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Core semantics of GET, POST, PUT, PATCH, and DELETE requests."
+  },
+  {
+    "skill": "REST APIs",
+    "title": "MDN HTTP Response Status Codes Reference",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Understand 200 OK, 201 Created, 400 Bad Request, 401 Unauthorized, 404 Not Found, 500."
+  },
+  {
+    "skill": "REST APIs",
+    "title": "Microsoft RESTful Web API Design Best Practices",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 45,
+    "reason": "Standardizing URI hierarchy, plural nouns, filtering, pagination, and HATEOAS."
+  },
+  {
+    "skill": "REST APIs",
+    "title": "freeCodeCamp How to Design a Good REST API",
+    "url": "https://www.freecodecamp.org/news/rest-api-design-best-practices/",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Actionable guidelines on versioning (/api/v1), status code selection, and payload shaping."
+  },
+  {
+    "skill": "REST APIs",
+    "title": "MDN Cross-Origin Resource Sharing (CORS)",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Demystifies preflight OPTIONS requests, Access-Control-Allow-Origin, and credentials."
+  },
+  {
+    "skill": "REST APIs",
+    "title": "Postman API Development and Testing Tutorial",
+    "url": "https://learning.postman.com/docs/getting-started/first-steps/overview/",
+    "resource_type": "exercise",
+    "difficulty": "easy",
+    "estimated_minutes": 40,
+    "reason": "Learn to inspect headers, cookies, query parameters, and automate test assertions."
+  },
+
+  {
+    "skill": "SQL",
+    "title": "SQLBolt - Introduction to SQL Queries",
+    "url": "https://sqlbolt.com/lesson/introduction",
+    "resource_type": "exercise",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Interactive in-browser queries learning SELECT, WHERE, and LIMIT."
+  },
+  {
+    "skill": "SQL",
+    "title": "SQLBolt - Multi-table queries with JOINs",
+    "url": "https://sqlbolt.com/lesson/select_queries_with_joins",
+    "resource_type": "exercise",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Hands-on exercises executing INNER JOIN, LEFT JOIN, and RIGHT JOIN."
+  },
+  {
+    "skill": "SQL",
+    "title": "W3Schools SQL Aggregate Functions & GROUP BY",
+    "url": "https://www.w3schools.com/sql/sql_groupby.asp",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 30,
+    "reason": "Aggregating metrics using COUNT, SUM, AVG, and filtering with HAVING."
+  },
+  {
+    "skill": "SQL",
+    "title": "PostgreSQL Official Documentation - Queries and Indexes",
+    "url": "https://www.postgresql.org/docs/current/tutorial-sql.html",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 50,
+    "reason": "Production relational concepts, B-tree indexes, execution plans (EXPLAIN), and transactions."
+  },
+  {
+    "skill": "SQL",
+    "title": "freeCodeCamp Relational Database Curriculum",
+    "url": "https://www.freecodecamp.org/learn/relational-database/",
+    "resource_type": "course",
+    "difficulty": "medium",
+    "estimated_minutes": 90,
+    "reason": "Comprehensive interactive database course covering bash, SQL, and database clients."
+  },
+  {
+    "skill": "SQL",
+    "title": "SQLBolt - Modifying data (INSERT, UPDATE, DELETE)",
+    "url": "https://sqlbolt.com/lesson/inserting_rows",
+    "resource_type": "exercise",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Mutating relational data safely with constraints and rollback considerations."
+  },
+
+  {
+    "skill": "Python",
+    "title": "Official Python Tutorial - An Informal Introduction",
+    "url": "https://docs.python.org/3/tutorial/introduction.html",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Variables, strings, lists, control flow statements, and indentation."
+  },
+  {
+    "skill": "Python",
+    "title": "Official Python Data Structures (Lists, Tuples, Dictionaries, Sets)",
+    "url": "https://docs.python.org/3/tutorial/datastructures.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Master list comprehensions, dict lookups, sets, and tuple unpacking."
+  },
+  {
+    "skill": "Python",
+    "title": "Official Python Classes and Object-Oriented Programming",
+    "url": "https://docs.python.org/3/tutorial/classes.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 45,
+    "reason": "Encapsulation, inheritance, dunder methods (__init__, __str__), and class methods."
+  },
+  {
+    "skill": "Python",
+    "title": "freeCodeCamp Scientific Computing with Python",
+    "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/",
+    "resource_type": "course",
+    "difficulty": "medium",
+    "estimated_minutes": 75,
+    "reason": "Real-world programming assignments developing algorithmic problem solving."
+  },
+  {
+    "skill": "Python",
+    "title": "Official Python Virtual Environments and Packages",
+    "url": "https://docs.python.org/3/tutorial/venv.html",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 20,
+    "reason": "Isolating dependencies using venv and pip package installation."
+  },
+  {
+    "skill": "Python",
+    "title": "W3Schools Python File Handling and Exceptions",
+    "url": "https://www.w3schools.com/python/python_file_handling.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Safe resource management using with statements and try-except-finally blocks."
+  },
+
+  {
+    "skill": "Git",
+    "title": "Pro Git Book - Getting Started with Version Control",
+    "url": "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Understand snapshots vs diffs, repository states, and staging area."
+  },
+  {
+    "skill": "Git",
+    "title": "Pro Git Book - Basic Snapshotting (init, add, commit, status)",
+    "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Core daily workflow for tracking files and writing clean semantic commit messages."
+  },
+  {
+    "skill": "Git",
+    "title": "Pro Git Book - Git Branching and Merging",
+    "url": "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Feature branching, 3-way merges, and resolving conflicting modifications."
+  },
+  {
+    "skill": "Git",
+    "title": "GitHub Git and GitHub Learning Labs",
+    "url": "https://docs.github.com/en/get-started/using-git/about-git",
+    "resource_type": "exercise",
+    "difficulty": "easy",
+    "estimated_minutes": 35,
+    "reason": "Connecting local repositories to remotes, pushing, pulling, and creating Pull Requests."
+  },
+  {
+    "skill": "Git",
+    "title": "freeCodeCamp Git & GitHub Crash Course",
+    "url": "https://www.freecodecamp.org/news/git-and-github-crash-course/",
+    "resource_type": "video",
+    "difficulty": "easy",
+    "estimated_minutes": 45,
+    "reason": "Visual overview of Git mechanics, checkout, restore, and diff commands."
+  },
+  {
+    "skill": "Git",
+    "title": "Atlassian Git Tutorial - Advanced Rebasing vs Merging",
+    "url": "https://www.atlassian.com/git/tutorials/merging-vs-rebasing",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 35,
+    "reason": "Maintaining clean linear project history with interactive git rebase."
+  },
+
+  {
+    "skill": "Database Design",
+    "title": "Lucidchart Database Structure and ERD Guide",
+    "url": "https://www.lucidchart.com/pages/er-diagrams",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 30,
+    "reason": "Entity Relationship Diagrams: entities, attributes, primary keys, and cardinality."
+  },
+  {
+    "skill": "Database Design",
+    "title": "W3Schools Database Normalization (1NF, 2NF, 3NF)",
+    "url": "https://www.w3schools.com/sql/sql_normalization.asp",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Eliminating data redundancy, transitive dependencies, and update anomalies."
+  },
+  {
+    "skill": "Database Design",
+    "title": "freeCodeCamp Database Design and Modeling Tutorial",
+    "url": "https://www.freecodecamp.org/news/database-design-tutorial/",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 50,
+    "reason": "Architecting relational schemas with foreign key cascades and unique constraints."
+  },
+  {
+    "skill": "Database Design",
+    "title": "PostgreSQL Foreign Keys and Referential Integrity",
+    "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 30,
+    "reason": "Configuring ON DELETE CASCADE vs SET NULL and enforcing domain check constraints."
+  },
+  {
+    "skill": "Database Design",
+    "title": "System Design Primer - Relational Database Scaling & Denormalization",
+    "url": "https://github.com/donnemartin/system-design-primer#relational-database-management-system-rdbms",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 45,
+    "reason": "Trade-offs between normalized ACID consistency and denormalized read throughput."
+  },
+  {
+    "skill": "Database Design",
+    "title": "DB-Engines Database Schema Design Practice Case",
+    "url": "https://www.w3resource.com/schema-design/introduction.php",
+    "resource_type": "exercise",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Practical exercise converting business rules into a normalized relational schema."
+  },
+
+  {
+    "skill": "Pandas",
+    "title": "Official Pandas 10 Minutes to Pandas",
+    "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Fundamental introduction to Series, DataFrames, indexing, and viewing data."
+  },
+  {
+    "skill": "Pandas",
+    "title": "Official Pandas Essential Basic Functionality",
+    "url": "https://pandas.pydata.org/docs/user_guide/basics.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Descriptive statistics, head/tail inspections, and vectorized boolean indexing."
+  },
+  {
+    "skill": "Pandas",
+    "title": "Official Pandas Group By: Split-Apply-Combine",
+    "url": "https://pandas.pydata.org/docs/user_guide/groupby.html",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 45,
+    "reason": "Grouping across dimensions, computing aggregations, and transforming data subsets."
+  },
+  {
+    "skill": "Pandas",
+    "title": "W3Schools Pandas Cleaning Empty and Corrupt Data",
+    "url": "https://www.w3schools.com/python/pandas/pandas_cleaning.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Handling missing NaN values with dropna(), fillna(), and correcting data types."
+  },
+  {
+    "skill": "Pandas",
+    "title": "freeCodeCamp Data Analysis with Python Certification",
+    "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+    "resource_type": "course",
+    "difficulty": "medium",
+    "estimated_minutes": 75,
+    "reason": "Real dataset wrangling projects analyzing demographics and medical examination data."
+  },
+  {
+    "skill": "Pandas",
+    "title": "Official Pandas Merging, Joining, and Concatenating",
+    "url": "https://pandas.pydata.org/docs/user_guide/merging.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Combining multiple DataFrames using merge(), concat(), and SQL-style joins."
+  },
+
+  {
+    "skill": "Data Visualization",
+    "title": "Matplotlib Official Quick Start Guide",
+    "url": "https://matplotlib.org/stable/users/explain/quick_start.html",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 30,
+    "reason": "Figures, Axes, line plots, scatter plots, and labels."
+  },
+  {
+    "skill": "Data Visualization",
+    "title": "Seaborn Official Overview & Statistical Plots",
+    "url": "https://seaborn.pydata.org/tutorial/introduction.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Building statistical visualizations, distribution plots, heatmaps, and boxplots."
+  },
+  {
+    "skill": "Data Visualization",
+    "title": "freeCodeCamp Data Visualization with Python and Matplotlib",
+    "url": "https://www.freecodecamp.org/news/matplotlib-tutorial-learn-data-visualization/",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 40,
+    "reason": "Designing presentation-ready bar charts, histograms, and subplots."
+  },
+  {
+    "skill": "Data Visualization",
+    "title": "Storytelling with Data - Visual Best Practices",
+    "url": "https://www.storytellingwithdata.com/chart-guide",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Choosing the right chart type, decluttering visuals, and directing user focus."
+  },
+  {
+    "skill": "Data Visualization",
+    "title": "W3Schools Matplotlib Pyplot and Formatting",
+    "url": "https://www.w3schools.com/python/matplotlib_pyplot.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 20,
+    "reason": "Configuring markers, gridlines, fonts, and exporting figures to disk."
+  },
+  {
+    "skill": "Data Visualization",
+    "title": "Plotly Python Interactive Graphing Libraries",
+    "url": "https://plotly.com/python/getting-started/",
+    "resource_type": "exercise",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Creating dynamic, interactive web charts with tooltips and zoom capabilities."
+  },
+
+  {
+    "skill": "Statistics",
+    "title": "Khan Academy Descriptive Statistics Overview",
+    "url": "https://www.khanacademy.org/math/statistics-probability/summarizing-quantitative-data",
+    "resource_type": "course",
+    "difficulty": "easy",
+    "estimated_minutes": 40,
+    "reason": "Measures of central tendency: mean, median, mode, variance, and standard deviation."
+  },
+  {
+    "skill": "Statistics",
+    "title": "Khan Academy Normal Distributions and Z-Scores",
+    "url": "https://www.khanacademy.org/math/statistics-probability/modeling-distributions-of-data",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 35,
+    "reason": "Probability density curves, empirical 68-95-99.7 rule, and standard normal scores."
+  },
+  {
+    "skill": "Statistics",
+    "title": "freeCodeCamp Probability and Statistics for Data Science",
+    "url": "https://www.freecodecamp.org/news/statistics-for-data-science/",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 50,
+    "reason": "Foundations of random variables, conditional probability, and Bayes' theorem."
+  },
+  {
+    "skill": "Statistics",
+    "title": "Khan Academy Hypothesis Testing and P-Values",
+    "url": "https://www.khanacademy.org/math/statistics-probability/significance-tests-one-sample",
+    "resource_type": "course",
+    "difficulty": "hard",
+    "estimated_minutes": 50,
+    "reason": "Null vs alternative hypothesis, Type I/II errors, and interpreting p-values."
+  },
+  {
+    "skill": "Statistics",
+    "title": "SciPy Official Statistical Functions (scipy.stats)",
+    "url": "https://docs.scipy.org/doc/scipy/tutorial/stats.html",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 40,
+    "reason": "Computing t-tests, Pearson correlations, and ANOVA tests programmatically in Python."
+  },
+  {
+    "skill": "Statistics",
+    "title": "W3Schools Python Machine Learning - Scatter Plots and Percentiles",
+    "url": "https://www.w3schools.com/python/python_ml_percentile.asp",
+    "resource_type": "documentation",
+    "difficulty": "easy",
+    "estimated_minutes": 25,
+    "reason": "Applying percentiles and standard deviation calculations on empirical arrays."
+  },
+
+  {
+    "skill": "Machine Learning Basics",
+    "title": "Google Machine Learning Crash Course - ML Concepts",
+    "url": "https://developers.google.com/machine-learning/crash-course/framing/check-your-understanding",
+    "resource_type": "course",
+    "difficulty": "easy",
+    "estimated_minutes": 40,
+    "reason": "Framing supervised learning problems: labels, features, models, and training loops."
+  },
+  {
+    "skill": "Machine Learning Basics",
+    "title": "Scikit-Learn Official Getting Started Tutorial",
+    "url": "https://scikit-learn.org/stable/getting_started.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 45,
+    "reason": "Estimator API: fit, predict, score, transformers, and train_test_split."
+  },
+  {
+    "skill": "Machine Learning Basics",
+    "title": "Scikit-Learn Model Evaluation Metrics (Accuracy, Precision, Recall, F1)",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "resource_type": "documentation",
+    "difficulty": "medium",
+    "estimated_minutes": 40,
+    "reason": "Confusion matrices, precision-recall trade-offs, and ROC-AUC curve analysis."
+  },
+  {
+    "skill": "Machine Learning Basics",
+    "title": "freeCodeCamp Machine Learning for Everybody",
+    "url": "https://www.freecodecamp.org/news/machine-learning-for-everybody/",
+    "resource_type": "video",
+    "difficulty": "easy",
+    "estimated_minutes": 60,
+    "reason": "Conceptual exploration of linear regression, logistic regression, kNN, and decision trees."
+  },
+  {
+    "skill": "Machine Learning Basics",
+    "title": "Google Machine Learning - Overfitting and Regularization (L1/L2)",
+    "url": "https://developers.google.com/machine-learning/crash-course/regularization-for-simplicity/l2-regularization",
+    "resource_type": "documentation",
+    "difficulty": "hard",
+    "estimated_minutes": 35,
+    "reason": "Diagnosing high bias vs high variance, cross-validation, and penalty parameters."
+  },
+  {
+    "skill": "Machine Learning Basics",
+    "title": "Scikit-Learn Classification Hands-on Exercise",
+    "url": "https://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html",
+    "resource_type": "exercise",
+    "difficulty": "hard",
+    "estimated_minutes": 50,
+    "reason": "Comparative practical evaluation of decision boundaries across common classifiers."
+  }
+]

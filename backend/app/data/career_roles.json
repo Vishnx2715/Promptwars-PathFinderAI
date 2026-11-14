@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Full Stack Developer",
+    "description": "Designs and builds end-to-end web applications, encompassing client interfaces, server APIs, and relational databases.",
+    "is_active": true,
+    "requirements": [
+      {
+        "skill": "HTML",
+        "required_level": 3,
+        "weight": 2,
+        "is_prerequisite_for": "JavaScript",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "CSS",
+        "required_level": 3,
+        "weight": 2,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "JavaScript",
+        "required_level": 4,
+        "weight": 5,
+        "is_prerequisite_for": "React, Node.js",
+        "prerequisite_skill": "HTML"
+      },
+      {
+        "skill": "React",
+        "required_level": 4,
+        "weight": 5,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "JavaScript"
+      },
+      {
+        "skill": "Node.js",
+        "required_level": 4,
+        "weight": 5,
+        "is_prerequisite_for": "Express, REST APIs",
+        "prerequisite_skill": "JavaScript"
+      },
+      {
+        "skill": "Express",
+        "required_level": 3,
+        "weight": 3,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "Node.js"
+      },
+      {
+        "skill": "REST APIs",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "Node.js"
+      },
+      {
+        "skill": "SQL",
+        "required_level": 3,
+        "weight": 3,
+        "is_prerequisite_for": "Database Design",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Git",
+        "required_level": 3,
+        "weight": 2,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Database Design",
+        "required_level": 3,
+        "weight": 3,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "SQL"
+      }
+    ]
+  },
+  {
+    "name": "Frontend Developer",
+    "description": "Crafts responsive, accessible, high-performance web applications using modern component-driven libraries and CSS systems.",
+    "is_active": true,
+    "requirements": [
+      {
+        "skill": "HTML",
+        "required_level": 4,
+        "weight": 3,
+        "is_prerequisite_for": "JavaScript",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "CSS",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "JavaScript",
+        "required_level": 4,
+        "weight": 5,
+        "is_prerequisite_for": "React",
+        "prerequisite_skill": "HTML"
+      },
+      {
+        "skill": "React",
+        "required_level": 5,
+        "weight": 5,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "JavaScript"
+      },
+      {
+        "skill": "REST APIs",
+        "required_level": 3,
+        "weight": 3,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Git",
+        "required_level": 3,
+        "weight": 2,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      }
+    ]
+  },
+  {
+    "name": "Backend Developer",
+    "description": "Architects resilient web backends, RESTful and microservice APIs, database layers, and high-concurrency systems.",
+    "is_active": true,
+    "requirements": [
+      {
+        "skill": "JavaScript",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": "Node.js",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Node.js",
+        "required_level": 5,
+        "weight": 5,
+        "is_prerequisite_for": "Express, REST APIs",
+        "prerequisite_skill": "JavaScript"
+      },
+      {
+        "skill": "Express",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "Node.js"
+      },
+      {
+        "skill": "REST APIs",
+        "required_level": 5,
+        "weight": 5,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "Node.js"
+      },
+      {
+        "skill": "SQL",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": "Database Design",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Database Design",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "SQL"
+      },
+      {
+        "skill": "Git",
+        "required_level": 3,
+        "weight": 2,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      }
+    ]
+  },
+  {
+    "name": "Data Analyst",
+    "description": "Transforms structured and unstructured business data into actionable dashboards, insights, and data-driven narratives.",
+    "is_active": true,
+    "requirements": [
+      {
+        "skill": "SQL",
+        "required_level": 4,
+        "weight": 5,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Python",
+        "required_level": 4,
+        "weight": 5,
+        "is_prerequisite_for": "Pandas",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Pandas",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": "Data Visualization",
+        "prerequisite_skill": "Python"
+      },
+      {
+        "skill": "Data Visualization",
+        "required_level": 3,
+        "weight": 3,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "Pandas"
+      },
+      {
+        "skill": "Statistics",
+        "required_level": 3,
+        "weight": 3,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Git",
+        "required_level": 2,
+        "weight": 2,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning Engineer",
+    "description": "Designs, trains, and operationalizes statistical and machine learning models for predictive systems and automated decision making.",
+    "is_active": true,
+    "requirements": [
+      {
+        "skill": "Python",
+        "required_level": 5,
+        "weight": 5,
+        "is_prerequisite_for": "Pandas, Machine Learning Basics",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Pandas",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": "Machine Learning Basics",
+        "prerequisite_skill": "Python"
+      },
+      {
+        "skill": "Statistics",
+        "required_level": 4,
+        "weight": 4,
+        "is_prerequisite_for": "Machine Learning Basics",
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Machine Learning Basics",
+        "required_level": 4,
+        "weight": 5,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": "Python"
+      },
+      {
+        "skill": "SQL",
+        "required_level": 3,
+        "weight": 3,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      },
+      {
+        "skill": "Git",
+        "required_level": 3,
+        "weight": 2,
+        "is_prerequisite_for": null,
+        "prerequisite_skill": null
+      }
+    ]
+  }
+]

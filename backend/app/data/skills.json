@@ -1,0 +1,77 @@
+[
+  {
+    "name": "HTML",
+    "category": "Frontend",
+    "description": "Semantic markup, DOM structure, forms, accessibility, and modern HTML5 APIs."
+  },
+  {
+    "name": "CSS",
+    "category": "Frontend",
+    "description": "Modern CSS layout models including Flexbox and Grid, responsive design, transitions, and CSS architecture."
+  },
+  {
+    "name": "JavaScript",
+    "category": "Programming Languages",
+    "description": "Core ECMAScript syntax, event loop, closures, asynchronous programming, promises, and modern ES6+ features."
+  },
+  {
+    "name": "React",
+    "category": "Frontend",
+    "description": "Component architecture, declarative UI, hooks, state management, routing, and virtual DOM reconciliation."
+  },
+  {
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "Asynchronous runtime, event-driven I/O, core modules, streams, file system, and npm ecosystem."
+  },
+  {
+    "name": "Express",
+    "category": "Backend",
+    "description": "Routing, middleware pipeline, request/response lifecycle, error handling, and web application architecture."
+  },
+  {
+    "name": "REST APIs",
+    "category": "Backend",
+    "description": "HTTP semantics, status codes, REST architectural constraints, authentication headers, and API design standards."
+  },
+  {
+    "name": "SQL",
+    "category": "Database",
+    "description": "Relational data querying, joins, aggregations, transactions, indexing, and schema definition."
+  },
+  {
+    "name": "Python",
+    "category": "Programming Languages",
+    "description": "Python data structures, object-oriented programming, comprehensions, standard library, and package management."
+  },
+  {
+    "name": "Git",
+    "category": "DevOps & Tools",
+    "description": "Distributed version control, branching, merging, merge conflict resolution, rebasing, and remote repositories."
+  },
+  {
+    "name": "Database Design",
+    "category": "Database",
+    "description": "Entity-relationship modeling, database normalization (1NF-3NF), primary/foreign keys, and constraint design."
+  },
+  {
+    "name": "Pandas",
+    "category": "Data Science",
+    "description": "Data manipulation, Series and DataFrame operations, filtering, grouping, aggregation, and handling missing data."
+  },
+  {
+    "name": "Data Visualization",
+    "category": "Data Science",
+    "description": "Translating data insights into charts, plots, dashboards using Matplotlib, Seaborn, and visual storytelling."
+  },
+  {
+    "name": "Statistics",
+    "category": "Data Science",
+    "description": "Descriptive statistics, probability distributions, hypothesis testing, correlation, and confidence intervals."
+  },
+  {
+    "name": "Machine Learning Basics",
+    "category": "Data Science",
+    "description": "Supervised vs unsupervised learning, regression, classification, model evaluation metrics, and overfitting."
+  }
+]

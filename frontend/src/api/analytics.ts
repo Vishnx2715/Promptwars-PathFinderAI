@@ -16,7 +16,10 @@ export const getAdminAnalytics = async (): Promise<AdminAnalytics> => {
   return data;
 };
 
-export const sendMentorChat = async (message: string) => {
-  const { data } = await api.post('/mentor-chat/chat', { message });
+export const sendMentorChat = async (
+  message: string,
+  history: { role: string; content: string }[] = []
+) => {
+  const { data } = await api.post('/mentor-chat/chat', { message, history });
   return data;
 };

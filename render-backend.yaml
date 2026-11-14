@@ -1,0 +1,34 @@
+services:
+  - type: web
+    name: pathforge-backend
+    runtime: python
+    plan: free
+    branch: main
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pathforge-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ENVIRONMENT
+        value: production
+      - key: XAI_API_KEY
+        sync: false
+      - key: XAI_MODEL
+        value: grok-2-1212
+      - key: BACKEND_CORS_ORIGINS
+        value: https://pathforge-frontend.onrender.com,http://localhost:3000
+      - key: MAX_FILE_SIZE_MB
+        value: "5"
+      - key: UPLOAD_DIR
+        value: /tmp/uploads
+
+databases:
+  - name: pathforge-db
+    databaseName: pathforge
+    plan: free

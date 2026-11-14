@@ -1,52 +1,26 @@
 services:
-  # Backend API
   - type: web
     name: pathforge-backend
-    env: python
+    env: docker
     region: oregon
     plan: free
     branch: main
-    buildCommand: "cd backend && pip install -r requirements.txt"
-    startCommand: "cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: DATABASE_URL
-        fromDatabase:
-          name: pathforge-db
-          property: connectionString
+        sync: false
       - key: SECRET_KEY
         generateValue: true
       - key: ENVIRONMENT
         value: production
-      - key: BACKEND_CORS_ORIGINS
-        value: https://pathforge-frontend.onrender.com,http://localhost:3000
-      - key: GROK_API_KEY
+      - key: XAI_API_KEY
         sync: false
-      - key: GROK_MODEL
+      - key: XAI_MODEL
         value: grok-2-1212
+      - key: BACKEND_CORS_ORIGINS
+        value: http://localhost:3000
       - key: MAX_FILE_SIZE_MB
-        value: 5
+        value: "5"
       - key: UPLOAD_DIR
         value: /tmp/uploads
-    healthCheckPath: /api/v1/health
-
-  # Frontend
-  - type: web
-    name: pathforge-frontend
-    env: node
-    region: oregon
-    plan: free
-    branch: main
-    buildCommand: "cd frontend && npm install && npm run build"
-    startCommand: "cd frontend && npm run preview -- --host 0.0.0.0 --port $PORT"
-    envVars:
-      - key: VITE_API_URL
-        value: https://pathforge-backend.onrender.com
-      - key: NODE_ENV
-        value: production
-
-  # PostgreSQL Database
-databases:
-  - name: pathforge-db
-    databaseName: pathforge
-    plan: free
-    region: oregon
